@@ -1,6 +1,8 @@
 import pyautogui
 import time
 
+#antes de começar a rodar abrir o seu Google Drive e logar. Atualizar os atributos dos métodos MoveTo com as coordenadas do arquivo de acordo com sua tela.
+
 pyautogui.alert("Não mecha mais no computador. A automação vai começar!")
 pyautogui.PAUSE = 0.5  #esperar meio segundo para cada comando
 
@@ -16,9 +18,9 @@ pyautogui.press('enter')
 pyautogui.hotkey('winleft','d')
 
 #clicar no arquivo e arrastar pro drive
-pyautogui.moveTo(1303,39)
+pyautogui.moveTo(1303,39)  #atualizar coodenada do local do arquivo na tela
 pyautogui.mouseDown()
-pyautogui.moveTo(369,556)
+pyautogui.moveTo(369,556) #atualizar coodenada do local onde deve soltar para iniciar o upload
 
 #mudar para a pagina do google drive
 pyautogui.hotkey('alt', 'tab')
