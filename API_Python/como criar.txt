@@ -1,0 +1,11 @@
+1 Criar o ambiente virtual 
+python -m venv venv
+
+2 ativar a venv
+.\venv\Scripts\activate
+
+3 Baixa o flask
+framework parecido com o django
+
+4 banco de dados MongoDB
+Cluster (estudar)
