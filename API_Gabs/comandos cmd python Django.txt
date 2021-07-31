@@ -1,0 +1,36 @@
+1- Pesquisar ativação da venv com 
+
+source venv/bin/activate
+OU
+.\venv\Scripts\activate
+OU
+cd venv
+cd Scripts
+activate
+
+2- criar uma nova pasta de projeto django
+	django-admin startproject InformaNomeDoProjeto
+
+3- Rodar o servidor
+	python manage.py runserver
+
+4 - Criar aplicativo no terminal 
+	python manage.py startapp relatorios_okr
+
+
+
+
+
+ROADMAP PARA FAZER UMA API REST COM DJANGO
+
+migo deixa eu te dizer pelo que to entendendo aqui para eu criar a api lá vou ter que seguir esse caminho:
+
+1) descobrir quais as entidades (tabelas que estao na tela que tenho que fazer a api)
+
+2) criar duas URLS para os dois endpoints que preciso fazer para dividir o 1 só que ta lá e importar from views a função
+
+3) criar as views que conversará com os models das telas(preciso ainda descobrir como faço isso). Lembrando que tem uns filtros lá então nao sei como vou fazer para que essas views considerem esses filtros, pelo que vi lá os modulos sao separados.
+
+4) vincular o midleware de autenticação na API (Só God Knows como deve se fazer isso, mas fiquei sabendo que vao mandar um template) 
+
+e acho que é isso... faz sentido?

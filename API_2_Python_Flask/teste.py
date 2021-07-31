@@ -1,9 +1,8 @@
 from flask import Flask
+app = Flask(__name__) #nome do app vai ser teste
 
-app = Flask(__name__)
 
-
-@app.route('/')
+@app.route('/') #url ou endpoint  cada método da view vai para 1 end point
 def hello_world():
     return "hello world."
 
